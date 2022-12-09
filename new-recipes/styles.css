@@ -1,0 +1,66 @@
+ /*style of index*/    
+.wh{
+    width: 540px;
+    height: auto;
+}
+.wh2{
+    width: 320px;
+    height: auto;
+}
+.wh3{
+    width: 200px;
+    height: 320px;
+}
+.padding{
+    padding: 15px;
+}
+.centercolumn{
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    box-shadow: 5px 5px 5px rgb(153, 153, 153);
+    background-color:rgb(176, 128, 240)
+}
+body{
+    background: linear-gradient(#4d4dff,#000000);
+    width: 100vw;
+    height: 100vh;
+}
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+div a{
+    align-self: center;
+}
+.gep{
+    gap: 15px;
+}
+.justifycenter{
+    justify-content: center;
+}
+.justifyevenly{
+    justify-content: space-evenly;
+}
+.aligncenter{
+    align-items: center;
+}
+h1{
+    font-size: large;
+    font-style:inherit;
+    color: rgb(80, 43, 8); 
+}
+h2{
+    font-size: large;
+    font-style:inherit;
+    color: rgb(80, 43, 8); 
+}
+/*end index*/
+
+/*style of kebab*/
+a{
+  text-decoration: none;  
+}
